@@ -45,4 +45,9 @@ dependencies {
     androidTestImplementation "androidx.test:runner:$androidx_test"
     androidTestImplementation "androidx.test:core:$androidx_test"
     androidTestImplementation "androidx.test.ext:junit-ktx:$androidx_test"
+
+    // material dialogs
+    def matieral_dialogs_version = "3.1.1"
+    implementation "com.afollestad.material-dialogs:core:$matieral_dialogs_version"
+    implementation "com.afollestad.material-dialogs:input:$matieral_dialogs_version"
 }
